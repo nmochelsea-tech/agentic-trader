@@ -1,0 +1,12 @@
+universe: [SPY, QQQ, TLT, BIL]
+defensive_symbol: BIL
+fast_ma: 50
+slow_ma: 200
+momentum_lookback: 126
+initial_cash: 10000
+max_position_pct: 0.35
+max_trade_pct: 0.25
+min_cash_pct: 0.05
+require_human_approval: true
+price_csv: data/sample_prices.csv
+ledger_path: ledger.csv
